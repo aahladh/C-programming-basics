@@ -39,7 +39,7 @@ int overlappingDestinationsWithmemmove()
   puts(string);
   memmove(fourth + 5, fourth, 7);
   puts(fourth);
-  //Output : stackstackstw
+  //Output : stackstackovw
   //It is because "memmove()" handles overlap of source and destination :
   return 0;
 }
